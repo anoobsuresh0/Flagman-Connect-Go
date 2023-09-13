@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from "react";
+
 
 const Test = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  useState
 
   return (
     <div className="col-span-2 grid">
