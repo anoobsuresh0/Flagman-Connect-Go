@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const Test = () => {
+const Content = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   useState
 
@@ -40,4 +40,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Content;

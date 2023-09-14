@@ -1,5 +1,5 @@
 import Logo from './components/Logo'
-import Test from './components/Test'
+import Content from './components/Content'
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="grid grid-cols-3 gap-1">
       <Logo />
-      <Test />
+      <Content />
     
       </div>
   )
